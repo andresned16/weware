@@ -1,0 +1,225 @@
+html{background: #FFF;}
+
+a, a:hover, a:link, a:visited{text-decoration: none; color: #000;}
+@font-face {
+    font-family: 'Hand Of Sean (Demo)';
+    src: url(../fonts/HandOfSeanDemo.woff);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Konnect';
+    src: url(../fonts/Konnect-Bold.woff);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Konnect-regular';
+    src: url(../fonts/Konnect-Regular.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+#container{margin: auto; position: relative;}
+#container.bg{background: #000 url('../images/bg.jpg') no-repeat left top; background-size: cover; min-height: 100%;}
+
+
+/*PRIMERA SECCIÓN - barra de navegación*/
+.btn-outline-success {
+    color: #2BE2A0;
+    border-color: #2BE2A0;
+    border-width: 2px;
+    font-weight: bold;
+    margin-right: 1%;
+}
+/*SEGUNDA SECCIÓN primera imagen*/
+.image1{margin-top:2%;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;}
+
+.text1{color:#00004f; width:90%; text-align: center; margin: 5% auto;font-family: 'Konnect-regular';}
+
+/*TERCERA SECCIÓN - email*/
+.d-flex{width:80%; text-align: center;  margin: auto; margin-top: 3%;}
+.botonenvio{background-color:#2BE2A0; color: white; border-color: #2BE2A0; font-weight: bold; margin-top: 3%;}
+
+
+/*CUARTA SECCIÓN - imagenes y texos de especificaciones de Weware*/
+.image2{margin-top:8%;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;}
+.barratextos{width:100%; margin-left: auto; text-align: center;}
+.arrow{width: 14%; float:left;color:#00004f;font-family:'Hand Of Sean (Demo)';margin: 5% auto;}
+.text2{color:#00004f; width:80%; text-align: left; margin: 5% auto; font-family:'Hand Of Sean (Demo)'; float:left;}
+
+/*QUINTA SECCIÓN - logos de marcas*/
+.text3{color:#00004f; width:80%; text-align: center; margin: 7% auto 1%; font-family:'Konnect';}
+.barralogos{width:80%;margin: auto; text-align: center;}
+.logos{width:30%; margin:2%;}
+/*SEXTA SECCIÓN - imagen de funcionamiento de Weware*/
+.image3{margin-top:8%;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;}
+/*SEPTIMA SECCIÓN - comentarios*/
+.text4{color:#00004f; width:85%; text-align: center; margin: 25% auto 4%;font-family: 'Konnect-regular'; font-size: 1.2em;}
+.textname{width: 95%;font-size: 0.8em; float: left; color: #00004f; text-align: center; margin: 3% auto; font-family: 'Konnect-regular';}
+
+/*OCTAVA SECCIÓN - bandeja de contactos*/
+.image4{margin-top:8%;
+        width: 95%;
+        margin-left: auto;}
+
+/*NOVENA SECCIÓN - FAQ*/
+.desplegable{width: 90%;margin: auto;}
+
+/*DECIMA SECCIÓN - Inscribirse*/
+.text5{color:#00004f; width:85%; text-align: left; margin: 8% auto 4%;font-family: 'Konnect'; font-size: 1.2em;}
+.text6{color:#00004f; width:90%; text-align: left; margin: 6% auto;font-family: 'Konnect-regular';}
+.d-flex {
+    display: block !important;
+}
+.navbar2{margin-bottom: 6%;}
+.line{width:60%; height: 1px; background-color: gray; margin:5% auto 5%;}
+
+/*ONCEAVA SECCIÓN - Footer*/
+.footer{width:70%; margin: auto; text-align: center;}
+.secciones{width:50%; height:170px; float: left;}
+.greenline{color: #2BE2A0; text-align: left;font-weight: bold;margin: 0% auto;}
+.text7{color:#00004f !important; width:90%; text-align: left; margin: 3% auto;font-family: 'Konnect';}
+.text8{color:#00004f !important; width:90%; text-align: left; margin: 1% auto;font-family: 'Konnect-regular'; padding: 0;}
+.text8edited{text-align: center;}
+.versiontext{margin-left: 0%;margin-top: 0%;width: 92%;}
+.logofinal{margin-top:8%;
+           width: 70%;
+           text-align: center;
+           margin-left: auto;}
+
+
+
+/*CAMBIO DE TAMAÑO A PANTALLAS SUPERIORES A 800PX DE ANCHO*/
+@media only screen and (min-width: 800px) {
+    /*SEGUNDA SECCIÓN primera imagen*/
+    .image1{margin-top:2%;
+            width: 70%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;}
+    .text1{ width:50%; text-align: center; margin: auto;}
+
+    /*TERCERA SECCIÓN - email*/
+    .d-flex{width:45%; text-align: center;  margin: auto; margin-top: 3%;}
+    .botonenvio{ margin-top: 0%;}
+    /*CUARTA SECCIÓN - imagenes y texos de especificaciones de Weware*/
+    .text2{display: none;}
+    .arrow{display: none;}
+    .barratextos{display: none;}
+    .image2{margin-top:2%;
+            width: 70%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;}
+    /*QUINTA SECCIÓN - logos de marcas*/
+    .logos{width:10%; margin:2%;}
+    /*SEXTA SECCIÓN - imagen de funcionamiento de Weware*/
+    .image3{margin-top:2%;
+            width: 70%;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;}
+    .pasosmobile{display: none;}
+    /*SEPTIMA SECCIÓN - comentarios*/
+    .text4{color:#00004f; width:50%; text-align: center; margin: 3% auto;font-family: 'Konnect-regular'; font-size: 1.2em;}
+    .textname{width: 45%;font-size: 0.8em; float: left; color: #00004f; text-align: center; margin: 3% auto; font-family: 'Konnect-regular';}
+    /*OCTAVA SECCIÓN - bandeja de contactos*/
+    .image4{margin-top:8%;
+            width: 85%;
+            margin-left: auto;}
+    /*NOVENA SECCIÓN - FAQ*/
+    .desplegable{width: 60%;margin: auto;}
+    /*DECIMA SECCIÓN - Inscribirse*/
+    .d-flex {
+        display: flex !important;
+    }
+    .text6{margin: 1% auto;}
+    .navbar2{margin-bottom: 0%;}
+    .text5{width:61%; margin: 5% auto 1%;}
+    .productsupdate{width: 60%}
+
+    /*ONCEAVA SECCIÓN - Footer*/
+    .footer{width:70%; margin-left: auto; text-align: center; display:flex !important;}
+    .secciones{width:25%;}
+    .text7{color:#00004f !important; width:90%; text-align: left; margin: 3% auto;font-family: 'Konnect';}
+    .text8{color:#00004f !important; width:90%; text-align: left; margin: 1% auto;font-family: 'Konnect-regular'; padding: 0;}
+    .versiontext{}
+    .logofinal{margin-top:8%;
+               width: 60%;
+               text-align: center;
+               margin-left: auto;}
+}
+
+
+/*Barra de correo que va dentro de recuadro morado*/
+@media only screen and (max-width: 320px){
+    .boxemail{position: absolute; top: 77.6%; margin-left: 5%;}
+}
+@media only screen and (min-width: 321px) and (max-width: 400px){
+    .boxemail{position: absolute; top: 78%; margin-left: 5%;}
+}
+@media only screen and (min-width: 401px) and (max-width: 500px){
+    .boxemail{position: absolute; top: 79%; margin-left: 5%;}
+}
+@media only screen and (min-width: 501px) and (max-width: 600px){
+    .boxemail{position: absolute; top: 80%; margin-left: 5%;}
+}
+@media only screen and (min-width: 601px) and (max-width: 700px){
+    .boxemail{position: absolute; top: 81%; margin-left: 5%;}
+}
+@media only screen and (min-width: 701px) and (max-width: 799px){
+    .boxemail{position: absolute; top: 82%; margin-left: 5%;}
+}
+@media only screen and (min-width: 800px) and (max-width: 859px){
+    .boxemail{position: absolute; top: 65%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 860px) and (max-width: 900px){
+    .boxemail{position: absolute; top: 65.5%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 901px) and (max-width: 948px){
+    .boxemail{position: absolute; top: 66.7%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 949px) and (max-width: 1000px){
+    .boxemail{position: absolute; top: 66.9%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 1001px) and (max-width: 1140px){
+    .boxemail{position: absolute; top: 67.9%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 1141px) and (max-width: 1270px){
+    .boxemail{position: absolute; top: 69%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 1271px) and (max-width: 1460px){
+    .boxemail{position: absolute; top: 70.6%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 1461px) and (max-width: 1760px){
+    .boxemail{position: absolute; top: 72%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 1761px) and (max-width: 2250px){
+    .boxemail{position: absolute; top: 74%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 2250px) and (max-width: 3100px){
+    .boxemail{position: absolute; top: 76%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
+@media only screen and (min-width: 3101px){
+    .boxemail{position: absolute; top: 78.6%; margin-left: 33%; width:38%;}
+    .boxemailtext{width:100%;}
+}
